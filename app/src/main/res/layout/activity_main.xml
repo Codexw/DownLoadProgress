@@ -53,6 +53,13 @@
             android:layout_weight="1"
             android:text="advance"
             />
+        <Button
+            android:id="@+id/wave"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="wave"
+            />
 
     </LinearLayout>
 

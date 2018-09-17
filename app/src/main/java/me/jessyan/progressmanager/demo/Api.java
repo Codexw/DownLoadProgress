@@ -16,7 +16,7 @@ import retrofit2.http.Part;
  */
 public interface Api {
 
-    @GET("https://raw.githubusercontent.com/iielse/behavior-learn/master/preview2.gif")
+    @GET("http://of2rh8u96.bkt.clouddn.com/setup_11.4.0.2002s.exe")
     Call<ResponseBody> getCall();
 
     @Multipart

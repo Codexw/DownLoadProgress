@@ -28,6 +28,8 @@
             android:name=".AdvanceActivity"
             android:label="ProgressManager Advance"
             />
+        <activity android:name=".DownWaveActivity"
+            android:label="Down Wave"/>
     </application>
 
 </manifest>

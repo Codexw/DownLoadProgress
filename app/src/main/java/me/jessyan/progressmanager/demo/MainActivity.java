@@ -128,6 +128,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.download_start).setOnClickListener(this);
         findViewById(R.id.upload_start).setOnClickListener(this);
         findViewById(R.id.advance).setOnClickListener(this);
+        findViewById(R.id.wave).setOnClickListener(this);
     }
 
     private void initListener() {
@@ -273,6 +274,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.advance:
                 startActivity(new Intent(getApplicationContext(), AdvanceActivity.class));
+                break;
+            case R.id.wave:
+                startActivity(new Intent(getApplicationContext(),DownWaveActivity.class));
                 break;
         }
     }
